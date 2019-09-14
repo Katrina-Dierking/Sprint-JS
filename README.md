@@ -30,6 +30,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM stands for Document Object Method. It is an application programming interface (API) for HTML and XML docs. The DOM is the object representation of the HTML elements of a webpage. 
+- All info exists in memory
+- Can see it, manipulate it, add & takeaway from it. 
+
 2. What is an event?
 
 3. What is an event listener?
