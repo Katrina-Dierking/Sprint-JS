@@ -26,7 +26,7 @@ function header() {
 
     const temp = document.createElement('span');
     temp.classList.add('temp');
-    temp.textContent = '98°';
+    temp.textContent = '78°';
 
     head.append(date); 
     head.append(headText);
