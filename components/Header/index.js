@@ -17,20 +17,20 @@ function header() {
     const head = document.createElement('div');
     head.classList.add('header');
 
-    let dateSpan = document.createElement('span');
-    dateSpan.classList.add('date');
-    dateSpan.textContent = 'September 14, 2019';
+    let date = document.createElement('span');
+    date.classList.add('date');
+    date.textContent = 'September 14, 2019';
 
     const headText = document.createElement('h1');
     headText.textContent = 'Lambda Times';
 
-    const tempSpan = document.createElement('span');
-    tempSpan.classList.add('temp');
-    tempSpan.textContent = '98°';
+    const temp = document.createElement('span');
+    temp.classList.add('temp');
+    temp.textContent = '98°';
 
-    head.append(dateSpan); 
+    head.append(date); 
     head.append(headText);
-    head.append(tempSpan);
+    head.append(temp);
 
     return head; 
 }
